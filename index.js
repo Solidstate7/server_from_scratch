@@ -5,5 +5,5 @@ dotenv.config();
 const { SSR_PORT } = process.env;
 
 frontApp.listen(SSR_PORT, () => {
-  console.log("SSR-SERVER ON");
+    console.log("SSR-SERVER ON");
 });
